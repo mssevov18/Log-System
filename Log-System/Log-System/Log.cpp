@@ -4,6 +4,13 @@
 #include <fstream>
 #include "Log.h"
 
+void CreateSaveDir()
+{
+	system("mkdir c:\\ProjectSaveFiles");
+	system("mkdir c:\\ProjectSaveFiles\\Log-System");
+	system("cls");
+}
+
 std::string AddLeadingZeroes(int num)
 {
 	std::string st = "";

@@ -6,9 +6,10 @@
 
 int main()
 {
+	CreateSaveDir();
 	LOG log;
 	//Maybe pick a folder outside of the project folder
-	if (log.Open("logs.log"))
+	if (log.Open("c:\\ProjectSaveFiles\\Log-System\\logs.log"))
 	{
 		log.Log(SEVERITY::INFO, "Program has started successfully");
 		log.SaveLog();

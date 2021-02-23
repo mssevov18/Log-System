@@ -1,5 +1,7 @@
 #pragma once
 
+void CreateSaveDir();
+
 std::string AddLeadingZeroes(int num);
 
 std::string TmToDateString(tm tm, char delimiter = '-');
