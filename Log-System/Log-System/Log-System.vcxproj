@@ -148,6 +148,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Log-System.cpp" />
+    <ClCompile Include="Log.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Log.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
